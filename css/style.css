@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&display=swap");
+
+:root {
+  --background-color: #111;
+  --primary-color: #558303;
+  --secondary-color: #fff;
+  --box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  text-transform: uppercase;
+}
+
+html {
+  font-family: "Merriweather", serif;
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-padding-top: 5.5rem;
+  scroll-behavior: smooth;
+}
+
+/* Header Section */
+.page-header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background: #fff;
+  padding: 1rem 7%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 100;
+  box-sizing: var(--box-shadow);
+}
+
+.page-header .logo {
+  font-size: 2.5rem;
+  font-weight: bolder;
+  /* color: rgb(241, 64, 0); */
+  /* color: #f2220f; */
+  color: #b39809;
+}
+
+.page-header .navbar .navbar-link {
+  font-size: 1.7rem;
+  padding: 0 2rem;
+  color: #080707;
+}
+
+.page-header .navbar .navbar-link:hover {
+  color: #f2220f;
+}
